@@ -1,0 +1,32 @@
+.companies_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  height: 5rem;
+  /* background-color: grey; */
+}
+
+.myob:hover {
+  color: #c850c0;
+}
+
+.belimo:hover {
+  color: orangered;
+}
+
+.lilly:hover {
+color:rgb(245, 38, 73)
+}
+
+.life:hover{
+    color: rgb(28, 160, 28);
+}
+
+.citrus:hover{
+    color:blue
+}
+
+.trustly:hover{
+    color: goldenrod;
+}

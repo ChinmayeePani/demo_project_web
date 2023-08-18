@@ -1,0 +1,93 @@
+.team {
+  background-color: #f3f5fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  width: 100vw;
+  padding-bottom: 4rem;
+}
+
+.team_line {
+  width: 4rem;
+  height: 5px;
+  margin-top: 1rem;
+  background-color: #47b2e4;
+  border: none;
+}
+
+.team p {
+  font-size: 20px;
+  min-width: 50%;
+  line-height: 2rem;
+  color: #444444;
+  padding-top: 2rem;
+  text-align: center;
+}
+.grid_container {
+  display: grid;
+  grid-template-rows: 19rem 19rem;
+  grid-template-columns: 52rem 52rem;
+  justify-content: center;
+}
+
+.team_card {
+  width: 50rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 3rem;
+  padding-inline: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: all 0.5s ease-in-out;
+}
+
+.team_card:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: all 0.5s ease-in-out;
+}
+
+.team_img {
+  height: 12rem;
+  border-radius: 120px;
+}
+
+.card_text {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.team_card_content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.team_card_content p {
+  text-align: left;
+  color: #858585;
+  font-size: 18px;
+}
+
+.team_cards_icons {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.2rem;
+  color: #37517e;
+}
+
+.icons_container {
+  background-color: #eff2f8;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.icons_container:hover {
+  color: white;
+  background-color: #47b2e4;
+}

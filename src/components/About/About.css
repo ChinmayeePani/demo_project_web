@@ -1,0 +1,144 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  width: 100vw;
+}
+
+.about_us_line {
+  width: 5rem;
+  height: 5px;
+  margin-top: 1rem;
+  background-color: #47B2E4;
+  border: none;
+}
+
+.about_content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-inline: 4rem;
+  margin-top: 2rem;
+}
+.about_para {
+  font-size: 20px;
+  min-width: 50%;
+  line-height: 2rem;
+  color: #444444;
+}
+
+.learn_more {
+  padding: 15px 30px;
+  font-size: 20px;
+  margin-top: 2rem;
+  border: 2px solid #47B2E4;
+  border-radius: 5px;
+  color: #47B2E4;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.learn_more:hover {
+  background-color: rgb(16, 122, 243);
+  color: white;
+}
+
+.map_div {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding-left: 2rem;
+  color: #444444;
+}
+.about_second_part {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  padding-top: 5rem;
+  background-color: #f3f5fa;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+.about_h1 {
+  color: rgb(55, 81, 126);
+  font-size: 37px;
+  max-width: 40%;
+}
+
+.about_span {
+  font-weight: bold;
+}
+
+.cards {
+  background-color: white;
+  padding: 20px 25px;
+  margin-top: 3rem;
+  border-radius: 10px;
+}
+.head_section {
+  display: flex;
+  gap: 1rem;
+}
+
+.cards_header {
+  color:#47B2E4;
+  font-size: 25px;
+  font-weight: bold;
+}
+.card_content {
+  font-size: 20px;
+  padding-top: 1rem;
+  color: #444444;
+  line-height: 2rem;
+}
+
+.about_third_para {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+  margin-top: 10rem;
+  align-items: center;
+}
+
+.demo3_img {
+  width: 50rem;
+}
+
+.demo3_header {
+  font-size: 40px;
+  color: #37517e;
+  font-weight: bold;
+}
+
+.demo3_para {
+  font-size: 25px;
+  padding-top: 1rem;
+  color: #444444;
+  line-height: 2rem;
+  font-weight: bold;
+  font-family: "Edu SA Beginner", cursive;
+}
+
+.label_percentage {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  font-size: 18px;
+  font-weight: bold;
+  color: #37517e;
+}
+
+.grey_bg {
+  margin-top: 1rem;
+  height: 12px;
+  width: 800px;
+  background-color: #e8edf5;
+}
+
+.blue_bg {
+  height: 12px;
+  background-color: #37517e;
+}

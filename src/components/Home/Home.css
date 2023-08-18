@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  height: 70vh;
+  width: 100vw;
+  background-color: #37517e;
+  padding-top: 9rem;
+}
+
+.watch_icon {
+  margin-left: 2rem;
+  font-size: 37px;
+  color: white;
+}
+
+.watch_icon:hover {
+  color: #47b2e4;
+}
+
+.home_content {
+  display: flex;
+  justify-content: space-around;
+}
